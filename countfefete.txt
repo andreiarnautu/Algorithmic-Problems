@@ -1,0 +1,14 @@
+-> Unim doua paduri
+-> In prima din ele vom avea (a1, b1) cu/fara bit
+-> In a doua din ele vom avea (a2, b2) cu/fara bit
+
+-> Rezultat 0 din prima : par(a1) * all(b1)
+-> Rezultat 1 din prima: impar(a1) * all(b1)
+
+-> Rezultat 0 din a doua: par(a2) * all(b2)
+-> Rezultat 1 din a doua: impar(a2) * all(b2)
+
+x0 * y0 * bit(special)
+x0 * y1 * rev(bit(special))
+x1 * y0 * rev(bit(special))
+x1 * y1 * bit(special)
